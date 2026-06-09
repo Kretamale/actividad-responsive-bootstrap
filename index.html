@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Encabezado principal de la página que contiene el título y descripción -->
+<head>
+    <meta charset="UTF-8">
+    <!-- Permite que el sitio se adapte a dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>Mi Página Personal</title>
+
+    <link rel="stylesheet" href="styles.css?v=2">
+
+</head>
+
+<body>
+    <!-- NAVBAR BOOTSTRAP -->
+<!-- Barra de navegación responsiva creada con Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">Mi Sitio</a>
+<!-- Botón visible en dispositivos móviles -->
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu"
+                aria-controls="menu"
+                aria-expanded="false"
+                aria-label="Abrir menú de navegación">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <header>
+        <h1>Mis Pasatiempos</h1>
+        <p>Conociendo un poco más sobre mí</p>
+    </header>
+
+<!-- Contenedor principal que utiliza CSS Grid para distribuir el contenido -->
+    <main class="contenedor">
+
+        <article>
+
+            <h2>Mis actividades favoritas</h2>
+
+            <!-- Contenedor de tarjetas organizado mediante Flexbox -->
+            <div class="hobbies">
+
+                <div class="tarjeta">
+                    Tecnología
+                </div>
+
+                <div class="tarjeta">
+                    Videojuegos
+                </div>
+
+                <div class="tarjeta">
+                    Música
+                </div>
+
+                <div class="tarjeta">
+                    Lectura
+                </div>
+
+            </div>
+
+        </article>
+
+        <!-- Información complementaria relacionada con el contenido principal -->
+        <aside>
+
+            <h3>Datos rápidos</h3>
+
+            <ul>
+                <li>Aprendiz de desarrollo web</li>
+                <li>Interés por la tecnología</li>
+                <li>Diseño responsivo</li>
+                <li>Bootstrap</li>
+            </ul>
+
+        </aside>
+
+    </main>
+
+    <!-- Pie de página con información de derechos de autor -->
+    <footer>
+        <p>© 2026 Mi Página Personal</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
